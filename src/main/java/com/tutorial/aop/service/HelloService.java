@@ -11,6 +11,8 @@ public class HelloService {
      * Tanpa AOP
      * ● Sekarang kita akan membuat contoh terlebih dahulu sebuah kode program tanpa AOP
      * ● Kita akan membuat Service Class, lalu di tiap method di Service Class tersebut, kita akan selalu menambahkan log di awal method
+     *
+     * // Class ini adalah Joint Point kumpulan Aspect bisa melintasi object dan method
      */
 
     public String hello(String name){

@@ -2,7 +2,9 @@ package com.tutorial.aop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
+@EnableAspectJAutoProxy // mengaktifkan AOP dari library AspectJ
 @SpringBootApplication
 public class BelajarSpringAopApplication {
 
